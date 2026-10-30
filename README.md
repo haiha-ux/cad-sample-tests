@@ -14,6 +14,10 @@ by scripts in `tools/`.
 | A — mounting plate 120×80×6, AL 6061, 1:1 | `bai_a/CST-A-001_mounting_plate.{dxf,dwg,pdf}` |
 | B — studio floor plan, 1:50 | `bai_b/CST-B-001_studio_plan.{dxf,dwg,pdf}` |
 
+| Test A — mounting plate (ISO) | Test B — studio floor plan 1:50 |
+|---|---|
+| ![A](docs/A_preview.png) | ![B](docs/B_preview.png) |
+
 ## Toolchain
 
 | Step | Tool |
@@ -138,19 +142,6 @@ python bai_b.py
 Requires Python 3.11, ezdxf ≥ 1.4, PyMuPDF, and ODA File Converter at the path in
 `tools/common.py`.
 
-## Time spent (2026-10-30)
-
-Wall clock, from timestamps taken during the work:
-
-| Step | Time |
-|---|---|
-| Tooling check (ODA download and check) | ~12:05–12:14 |
-| Test A + test B, including clean-up passes after viewing the PDFs | 12:14–12:18 |
-| README and checks | 12:18–12:22 |
-| **Total** | **≈ 17 min** |
-
-The split between A and B inside 12:14–12:18 was not timed separately. Writing the
-script took longer for A, which has the multi-view projection and the section, than for B.
 
 ## Revision history
 
